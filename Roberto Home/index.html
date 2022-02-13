@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Roberto Home/carousel__1/home.css">
-    <script src="/Roberto Home/carousel__1/home.js" defer></script>
+    <link rel="stylesheet" href="/Roberto Home/home.css">
+
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+    
+    <script src="/Roberto Home/JS_Carousel-1/Carousel_1.js" defer></script>
+    <script src="/Roberto Home/index.js" defer></script>
     <title>Roberto-Home</title>
 </head>
 
 <body>
     <main>
-        <section>
+        <!-- Welcome  carousel -->
+        <section class="welcome_carousel">
             <div class="carousel">
                 <button class="carousel__buton carousel__button--left"></button>
                 <div class="carousel__track-container">
@@ -49,7 +54,144 @@
                 <button class="carousel__button carousel__button--right"></button>
             </div>
         </section>
+        <section class="about-us">
+            <!-- Availability form  -->
+            <div class="availability-form">
+                <div class="form-container">
+                    <div class="form_content">
+                        <div class="check-in">
+                            <label for="checkIn"> Check In</label>
+                            <input type="date" name="check-in" id="checkIn">
+                        </div>
+                        <div class="check-out">
+                            <label for="checkOut"> Check Out</label>
+                            <input type="date" name="check-out" id="checkOut">
+                        </div>
+                        <div class="count-container">
+                            <!-- -----room count -->
+                            <div class="drop-count">
+                                <span class="drop-count__rooms">Room </span>
+                                <div class="select-box"> 
+                                    <div class="option-container" id="option-container-room">
+                                       
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d1" name="count">
+                                            <label for="count">01</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d2" name="count">
+                                            <label for="count">02</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d3" name="count">
+                                            <label for="count">03</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d4" name="count">
+                                            <label for="count">04</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d5" name="count">
+                                            <label for="count">05</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d6" name="count">
+                                            <label for="count">06</label>
+                                        </div>
+                                    </div>
+                                    <div class="selected guest-adult" id="selected-room">
+                                        <span id="selected-room-count"> 01 </span> <i class=" count_icon fa fa-angle-down"></i>
+                                    </div>
+                                </div>          
+                            </div>
+                            <!-- ----------Adult count -->
+                            <div class="drop-count">
+                                <span class="drop-count__rooms">Adult</span>
+                                <div class="select-box"> 
+                                    <div class="option-container" id="option-container-adult">
+            
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d1" name="count">
+                                            <label for="count">01</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d2" name="count">
+                                            <label for="count">02</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d3" name="count">
+                                            <label for="count">03</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d4" name="count">
+                                            <label for="count">04</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d5" name="count">
+                                            <label for="count">05</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d6" name="count">
+                                            <label for="count">06</label>
+                                        </div>
+                                    </div>
+                                    <div class="selected guest-adult" id="selected-adult">
+                                       <span id="selected-adult-count">01</span> <i class=" count_icon fa fa-angle-down"></i>
+                                    </div>
+                                </div>          
+                            </div>
+                            <!-- ----------Children count -->
+                            <div class="drop-count">
+                                <span class="drop-count__rooms">Children</span>
+                                <div class="select-box"> 
+                                    <div class="option-container" id="option-container-children">
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d1" name="count">
+                                            <label for="count">01</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d2" name="count">
+                                            <label for="count">02</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d3" name="count">
+                                            <label for="count">03</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d4" name="count">
+                                            <label for="count">04</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d5" name="count">
+                                            <label for="count">05</label>
+                                        </div>
+                                        <div class="option">
+                                            <input type="radio" class="radio" id="d6" name="count">
+                                            <label for="count">06</label>
+                                        </div>
+                                    </div>
+                                    <div class="selected guest-adult" id="selected-children">
+                                        <span id="selected-children-count">01</span> <i class=" count_icon fa fa-angle-down"></i>
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>
+                       <!-- ---------check button -->
+                       <Button class="check-btn-container">
+                            <a class="check-btn_inner" href="#">Check Availability</a>
+                       </Button>
+                    </div>
+                </div>
+            </div>
+            <!-- About us section -->
+            <div class="about-us-section">
+               <div class="container">
+                   
+               </div> 
+            </div>
+        </section>
     </main>
 </body>
 
 </html>
+
