@@ -28,7 +28,7 @@ const reset = ()=>{
   let Btn = slides[index].children[0].children[0].children[2];
   
   const h6_reset = `transform: translateX(-100px);
-  transition-duration: 1s;
+  transition-duration: 1s; 
   opacity: 0`;
   const h1_reset = `transform: translateY(-100px);
   transition-duration: 1s;
