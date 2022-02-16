@@ -98,8 +98,8 @@ RoomTrack.addEventListener("transitionend", () => {
 // //* Utility function ----------*---------*--------
 
 const moveForward = () => {
-    animationReset();
   if (slideIndex >= roomSlides - 1) return;
+  animationReset();
   roomSlides[slideIndex].children[1].children[0].style.opacity = '0';
   slideIndex++;
   moveRoomSlide();
