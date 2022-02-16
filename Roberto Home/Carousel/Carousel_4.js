@@ -62,5 +62,4 @@ const nextProject = () => {
   projectIndex++;
   projectTrack.style.transition = "1s";
   moveProjectSlide();
-
 };
