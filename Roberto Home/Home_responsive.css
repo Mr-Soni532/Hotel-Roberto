@@ -1,0 +1,131 @@
+@media screen and (max-width: 1500px) {
+  .project_slide {
+    min-width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container > h1 {
+    font-size: 48px;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .carousel {
+    height: 600px;
+  }
+  .availability-form {
+    padding: 0;
+  }
+
+  .count_icon {
+    top: 27%;
+    right: 7px;
+  }
+  .count_icon::before {
+    font-size: 12px;
+  }
+  .service-box > h5 {
+    font-size: 16px;
+  }
+  .room-content {
+    padding-left: 40px;
+  }
+  .room-content_container > h2 {
+    font-size: 36px;
+  }
+  .testimonial_heading {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .check-in,
+  .check-out {
+    /* flex: 0 0 16.66%; */
+    max-width: 20.66%;
+  }
+  .box-1,
+.box-2{
+  flex: 0 0 100%;
+  max-width: 100%;
+} */
+  .about-us-section_inner {
+    flex-direction: column;
+  }
+
+  .service-box {
+    padding: 20px;
+  }
+  .service-box > h5 {
+    font-size: 14px;
+  }
+  .testimonial_image {
+    margin-top: 70px;
+  }
+  .testimonial_heading > h2 {
+    font-size: 30px;
+  }
+  .testimonial_content-slide > h5 {
+    font-size: 16px;
+  }
+  .project_slide {
+    min-width: 50%;
+  }
+  .blog-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 540px;
+  }
+  .carousel__button,
+  .carousel__button--left {
+    height: 50px;
+    width: 50px;
+  }
+  .form_content {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .date-container {
+    width: 100%;
+    flex-direction: row;
+  }
+  .check-in,
+  .check-out {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  .check-in > label,
+  .check-out > label {
+    font-size: 12px;
+  }
+  .count-container {
+    flex: 0 0 100%;
+  }
+  .drop-count > span {
+    font-size: 12px;
+  }
+  .check-btn-container {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .flex-box__inner{
+    flex-wrap: wrap;
+  }
+  .service-box{
+    margin: 20px;
+    flex: 0 0 40%;
+  }
+  .project_slide {
+    min-width: 100%;
+  }
+}

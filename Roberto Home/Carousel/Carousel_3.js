@@ -13,7 +13,6 @@ image_clone2.id = "image_clone2";
 testImageTrack.append(image_clone1);
 testImageTrack.prepend(image_clone2);
 
-let imageSlideWidth = imageSlides[imageIndex].clientWidth;
 imageSlides = Array.from(testImageTrack.children);
 
 //updating dot-navigation
@@ -33,6 +32,8 @@ const updatedot = () => {
 
 //moving slides
 const imageSlideMove = () => {
+let imageSlideWidth = imageSlides[imageIndex].clientWidth;
+
   testImageTrack.style.transform =
     `translateX(-` + imageSlideWidth * imageIndex + `px)`;
 };
@@ -44,7 +45,6 @@ const imageSlideAutomation = () => {
     nextImage();
   }, 5000);
 };
-
 
 // after transition function
 testImageTrack.addEventListener("transitionend", () => {
@@ -104,10 +104,9 @@ testContentTrack.append(content_cloneFirst);
 testContentTrack.prepend(content_cloneLast);
 contentSlide = Array.from(testContentTrack.children);
 
-let contentSlideWidth = contentSlide[contentIndex].clientWidth;
-
 // moving content slide
 const contentSlideMove = () => {
+  let contentSlideWidth = contentSlide[contentIndex].clientWidth;
   updatedot();
   testContentTrack.style.transform =
     `translateX(-` + contentSlideWidth * contentIndex + `px)`;
@@ -166,6 +165,6 @@ dot_nav.addEventListener("click", (e) => {
   updatedot();
 });
 
-//!-----------Activating Both slide automaiton 
+//!-----------Activating Both slide automaiton
 imageSlideAutomation();
 contentSlideAutomation();

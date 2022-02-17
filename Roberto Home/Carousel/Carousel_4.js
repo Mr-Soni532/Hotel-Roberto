@@ -33,10 +33,9 @@ projectTrack.append(clone___3);
 projectTrack.append(clone___4);
 projectSlide = Array.from(projectTrack.children);
 
-const projectSlideWidth = projectSlide[projectIndex].clientWidth;
-
 // Moving slide
 const moveProjectSlide = () => {
+  const projectSlideWidth = projectSlide[projectIndex].clientWidth;
   projectTrack.style.transform =
     `translateX(-` + projectSlideWidth * projectIndex + `px)`;
 };

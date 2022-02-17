@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Roberto Home/home.css">
+    <link rel="stylesheet" href="/Roberto Home/Home_responsive.css">
 
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
     <!-- carousel scripts -->
@@ -62,143 +63,148 @@
         <section class="about-us">
             <!-- Availability form  -->
             <div class="availability-form">
-                <div class="form-container">
-                    <div class="form_content">
-                        <div class="check-in">
-                            <label for="checkIn"> Check In</label>
-                            <input type="date" name="check-in" id="checkIn">
-                        </div>
-                        <div class="check-out">
-                            <label for="checkOut"> Check Out</label>
-                            <input type="date" name="check-out" id="checkOut">
-                        </div>
-                        <div class="count-container">
-                            <!-- -----room count -->
-                            <div class="drop-count">
-                                <span class="drop-count__rooms">Room </span>
-                                <div class="select-box">
-                                    <div class="option-container" id="option-container-room">
+                <div class="form-container_outer">
+                    <div class="form-container">
+                        <div class="form_content">
+                            <!-- <div class="date-container"> -->
+                            <div class="check-in">
+                                <label for="checkIn"> Check In</label>
+                                <input type="date" name="check-in" id="checkIn">
+                            </div>
+                            <div class="check-out">
+                                <label for="checkOut"> Check Out</label>
+                                <input type="date" name="check-out" id="checkOut">
+                            </div>
+                            <!-- </div> -->
+                            <div class="count-container">
+                                <!-- -----room count -->
+                                <div class="drop-count">
+                                    <span class="drop-count__rooms">Room </span>
+                                    <div class="select-box">
+                                        <div class="option-container" id="option-container-room">
 
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d1" name="count">
-                                            <label for="count">01</label>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d1" name="count">
+                                                <label for="count">01</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d2" name="count">
+                                                <label for="count">02</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d3" name="count">
+                                                <label for="count">03</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d4" name="count">
+                                                <label for="count">04</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d5" name="count">
+                                                <label for="count">05</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d6" name="count">
+                                                <label for="count">06</label>
+                                            </div>
                                         </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d2" name="count">
-                                            <label for="count">02</label>
+                                        <div class="selected guest-adult" id="selected-room">
+                                            <span id="selected-room-count"> 01 </span> <i
+                                                class=" count_icon fa fa-angle-down"></i>
                                         </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d3" name="count">
-                                            <label for="count">03</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d4" name="count">
-                                            <label for="count">04</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d5" name="count">
-                                            <label for="count">05</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d6" name="count">
-                                            <label for="count">06</label>
-                                        </div>
-                                    </div>
-                                    <div class="selected guest-adult" id="selected-room">
-                                        <span id="selected-room-count"> 01 </span> <i
-                                            class=" count_icon fa fa-angle-down"></i>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- ----------Adult count -->
-                            <div class="drop-count">
-                                <span class="drop-count__rooms">Adult</span>
-                                <div class="select-box">
-                                    <div class="option-container" id="option-container-adult">
+                                <!-- ----------Adult count -->
+                                <div class="drop-count">
+                                    <span class="drop-count__rooms">Adult</span>
+                                    <div class="select-box">
+                                        <div class="option-container" id="option-container-adult">
 
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d1" name="count">
-                                            <label for="count">01</label>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d1" name="count">
+                                                <label for="count">01</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d2" name="count">
+                                                <label for="count">02</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d3" name="count">
+                                                <label for="count">03</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d4" name="count">
+                                                <label for="count">04</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d5" name="count">
+                                                <label for="count">05</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d6" name="count">
+                                                <label for="count">06</label>
+                                            </div>
                                         </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d2" name="count">
-                                            <label for="count">02</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d3" name="count">
-                                            <label for="count">03</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d4" name="count">
-                                            <label for="count">04</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d5" name="count">
-                                            <label for="count">05</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d6" name="count">
-                                            <label for="count">06</label>
+                                        <div class="selected guest-adult" id="selected-adult">
+                                            <span id="selected-adult-count">01</span> <i
+                                                class=" count_icon fa fa-angle-down"></i>
                                         </div>
                                     </div>
-                                    <div class="selected guest-adult" id="selected-adult">
-                                        <span id="selected-adult-count">01</span> <i
-                                            class=" count_icon fa fa-angle-down"></i>
+                                </div>
+                                <!-- ----------Children count -->
+                                <div class="drop-count">
+                                    <span class="drop-count__rooms">Children</span>
+                                    <div class="select-box">
+                                        <div class="option-container" id="option-container-children">
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d1" name="count">
+                                                <label for="count">01</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d2" name="count">
+                                                <label for="count">02</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d3" name="count">
+                                                <label for="count">03</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d4" name="count">
+                                                <label for="count">04</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d5" name="count">
+                                                <label for="count">05</label>
+                                            </div>
+                                            <div class="option">
+                                                <input type="radio" class="radio" id="d6" name="count">
+                                                <label for="count">06</label>
+                                            </div>
+                                        </div>
+                                        <div class="selected guest-adult" id="selected-children">
+                                            <span id="selected-children-count">01</span> <i
+                                                class=" count_icon fa fa-angle-down"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- ----------Children count -->
-                            <div class="drop-count">
-                                <span class="drop-count__rooms">Children</span>
-                                <div class="select-box">
-                                    <div class="option-container" id="option-container-children">
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d1" name="count">
-                                            <label for="count">01</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d2" name="count">
-                                            <label for="count">02</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d3" name="count">
-                                            <label for="count">03</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d4" name="count">
-                                            <label for="count">04</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d5" name="count">
-                                            <label for="count">05</label>
-                                        </div>
-                                        <div class="option">
-                                            <input type="radio" class="radio" id="d6" name="count">
-                                            <label for="count">06</label>
-                                        </div>
-                                    </div>
-                                    <div class="selected guest-adult" id="selected-children">
-                                        <span id="selected-children-count">01</span> <i
-                                            class=" count_icon fa fa-angle-down"></i>
-                                    </div>
-                                </div>
-                            </div>
+                            <!-- ---------check button -->
+                            <Button class="check-btn-container">
+                                <a class="check-btn_inner" href="#"><Span>Check</Span><span
+                                        class="Availability">Availability</span></a>
+                            </Button>
                         </div>
-                        <!-- ---------check button -->
-                        <Button class="check-btn-container">
-                            <a class="check-btn_inner" href="#">Check Availability</a>
-                        </Button>
                     </div>
                 </div>
             </div>
             <!-- About us section -->
-            <div class="about-us-section ">
-                <div class="container">
+            <div class="container about-us-section">
+                <div class="about-us-section_inner">
                     <div class="box-1">
                         <div class="box-1__upper">
                             <h6>ABOUT US</h6>
-                            <h1>Welcome To</h1>
-                            <h1>Roberto Hotel Luxry</h1>
+                            <h1>Welcome To <br>
+                                Roberto Hotel Luxury</h1>
                         </div>
                         <div class="box-1__lower">
                             <h5> With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering
@@ -209,17 +215,19 @@
                     </div>
                     <div class="box-2">
                         <div class="box-2_container">
-                            <div class="box-2__left">
-                                <div class="single_thumb">
-                                    <img src="/Images/Home/about-us/C1-R1.webp" alt="">
+                            <div class="box-2_container__inner">
+                                <div class="box-2__left">
+                                    <div class="single_thumb">
+                                        <img src="/Images/Home/about-us/C1-R1.webp" alt="">
+                                    </div>
+                                    <div class="single_thumb">
+                                        <img src="/Images/Home/about-us/C1-R2.webp" alt="">
+                                    </div>
                                 </div>
-                                <div class="single_thumb">
-                                    <img src="/Images/Home/about-us/C1-R2.webp" alt="">
-                                </div>
-                            </div>
-                            <div class="box-2__right">
-                                <div class="single_thumb">
-                                    <img src="/Images/Home/about-us/C2.webp" alt="">
+                                <div class="box-2__right">
+                                    <div class="single_thumb">
+                                        <img src="/Images/Home/about-us/C2.webp" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -231,25 +239,27 @@
         <div class="service-pannel">
             <div class="container">
                 <div class="flex-box">
-                    <div class="service-box">
-                        <img src="/Images/Home/Hotel_services/1.png" alt="">
-                        <h5>Transportation</h5>
-                    </div>
-                    <div class="service-box">
-                        <img src="/Images/Home/Hotel_services/2.png" alt="">
-                        <h5>Reiseservice</h5>
-                    </div>
-                    <div class="service-box">
-                        <img src="/Images/Home/Hotel_services/3.png" alt="">
-                        <h5>Spa Relaxtion</h5>
-                    </div>
-                    <div class="service-box">
-                        <img src="/Images/Home/Hotel_services/4.png" alt="">
-                        <h5>Restaurant</h5>
-                    </div>
-                    <div class="service-box">
-                        <img src="/Images/Home/Hotel_services/1.png" alt="">
-                        <h5>Bar & Drink</h5>
+                    <div class="flex-box__inner">
+                        <div class="service-box">
+                            <img src="/Images/Home/Hotel_services/1.png" alt="">
+                            <h5>Transportation</h5>
+                        </div>
+                        <div class="service-box">
+                            <img src="/Images/Home/Hotel_services/2.png" alt="">
+                            <h5>Reiseservice</h5>
+                        </div>
+                        <div class="service-box">
+                            <img src="/Images/Home/Hotel_services/3.png" alt="">
+                            <h5>Spa Relaxtion</h5>
+                        </div>
+                        <div class="service-box">
+                            <img src="/Images/Home/Hotel_services/4.png" alt="">
+                            <h5>Restaurant</h5>
+                        </div>
+                        <div class="service-box">
+                            <img src="/Images/Home/Hotel_services/1.png" alt="">
+                            <h5>Bar & Drink</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -398,8 +408,10 @@
                                 <a href="#" class="post-category">Event</a>
                             </div>
                             <a href="#" class="post-title">Learn How To Motivate Yourself</a>
-                            <p>How many free autoresponders have you tried? And how many emails did you get through using them?</p>
-                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p>How many free autoresponders have you tried? And how many emails did you get through
+                                using them?</p>
+                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a>
                         </div>
                         <div class="blog-box">
                             <a href="#" class="post-thumbnail">
@@ -410,8 +422,10 @@
                                 <a href="#" class="post-category">Event</a>
                             </div>
                             <a href="#" class="post-title">What If Let You Run The Hubble</a>
-                            <p>My point here is that if you have no clue for the answers above you probably are not operating a followup</p>
-                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p>My point here is that if you have no clue for the answers above you probably are not
+                                operating a followup</p>
+                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a>
                         </div>
                         <div class=" blog-box">
                             <a href="#" class="post-thumbnail">
@@ -422,11 +436,13 @@
                                 <a href="#" class="post-category">Event</a>
                             </div>
                             <a href="#" class="post-title">Six Pack Abs The Big Picture</a>
-                            <p>Some good steps to take to ensure you are getting what you need out of a autoresponder include…</p>
-                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                            <p>Some good steps to take to ensure you are getting what you need out of a autoresponder
+                                include…</p>
+                            <a href="#" class="continue-btn"><i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>

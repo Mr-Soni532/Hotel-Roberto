@@ -13,10 +13,10 @@ lastClone.id = "last-clone";
 track.append(firstClone);
 track.prepend(lastClone);
 
-const slideWidth = slides[index].clientWidth;  
 
 //Slide move 
 const moveSlide = () => {
+  const slideWidth = slides[index].clientWidth;  
   track.style.transform = `translateX(-` + slideWidth * index + `px)`;
   slides[index].children[0].children[0].style.opacity = '1'
 };

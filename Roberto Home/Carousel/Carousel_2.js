@@ -27,7 +27,6 @@ RoomTrack.prepend(clone_secondSlide);
 
 roomSlides = Array.from(RoomTrack.children);
 
-const roomSlideWidth = roomSlides[slideIndex].clientWidth;
 
 //! Animation on/off function
 const animationReset = () => {
@@ -65,6 +64,7 @@ const animationActive = () => {
 
 //! Moving slide
 const moveRoomSlide = () => {
+const roomSlideWidth = roomSlides[slideIndex].clientWidth;
   RoomTrack.style.transform =
     `translateX(-` + roomSlideWidth * slideIndex + `px)`;
     roomSlides[slideIndex].children[1].children[0].style.opacity = '1';
