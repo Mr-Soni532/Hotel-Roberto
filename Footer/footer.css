@@ -29,7 +29,7 @@ body {
   position: relative;
   top: 0;
   width: 100%;
-  background-image: url(/Images/Footer/1.webp);
+  background-image: url("/Resources/Footer/1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

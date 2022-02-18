@@ -17,7 +17,7 @@
 }
 /** 1st div */
 .first {
-  background-image: url(../images/div1.webp);
+  background-image: url("../Resources/About Us/images/div1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -105,7 +105,7 @@
 /** 3rd Div  */
 .third {
   height: 481px;
-  background-image: url(../images/3.webp);
+  background-image: url("../Resources/About Us/images/3.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -220,7 +220,7 @@
 }
 .outer {
   width: 80%;
-  background-image: url("../images/5.webp");
+  background-image: url("../Resources/About Us/images/5.webp");
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;

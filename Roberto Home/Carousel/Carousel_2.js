@@ -8,7 +8,9 @@ let roomSlideID;
 
 // adding second slide
 let clone_1 = roomSlides[0].cloneNode(true);
-clone_1.children[0].style.backgroundImage = `url("http://127.0.0.1:5501/Images/Home/carosel__1/2.jpg")`;
+console.log(getComputedStyle(clone_1.children[0]).backgroundImage)
+clone_1.children[0].style.backgroundImage = `url(../../Resources/Home/carosel__1/2.jpg)`
+// clone_1.children[0].style.backgroundImage = url("");
 let roomTitle = clone_1.children[1].children[0].children[0];
 roomTitle.textContent = "Best King Room";
 let roomPrice = clone_1.children[1].children[0].children[1];
