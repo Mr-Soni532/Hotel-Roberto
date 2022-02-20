@@ -1,0 +1,155 @@
+/*!---------------------------------------------------*/
+
+/** Page Title section **/
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pageTitle {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  z-index: -1;
+  background-color: rgba(14, 39, 55, 0.7);
+}
+.pageTitle_flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.pageTitle_content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pageTitle_content > h2 {
+  color: #fff;
+  font-size: 48px;
+  color: #fff;
+  font-size: 48px;
+  display: block;
+  font-weight: 500;
+}
+.pageTitle_content__page-path {
+  /* display: block; */
+  color: #fff;
+}
+.pageTitle_content__page-path > a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-weight: 500;
+  z-index: 1;
+}
+
+/* -------------------------- background  */
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -100;
+  clip: rect(0, 1903px, 300px, 0);
+}
+
+.bg-img {
+  height: 100%;
+  z-index: -99;
+  background-image: url("/Resources/About Us/images/div1.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 618.5px;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: 159.25px;
+  transform: translate3d(0px, -94.25px, 0px);
+  transition-duration: 0ms;
+}
+
+.bg-overlay {
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  z-index: -98;
+  background-color: rgba(14, 39, 55, 0.7);
+}
+
+/*!---------------------------| Media Queries Section |-----------------------------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .pageTitle_content > h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .bg-img {
+    height: 575px;
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .pageTitle_content > h2 {
+    font-size: 36px;
+  }
+  .bg-img {
+    margin-top: 155px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .pageTitle_content > h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .bg-img {
+    height: 525px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .container{
+        min-width: 100%;
+    }
+  .pageTitle_content > h2 {
+    font-size: 24px;
+  }
+  .news-section__col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}

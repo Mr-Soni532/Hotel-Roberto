@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <script src="/JS/Header.js" defer></script>
+    <title>Roberto-Header</title>
+</head>
+
+<body>
+    <header>
+        <!-- !---------search-pannel---------------------------->
+        <div class="search-pannel" id="searchPannel">
+            <div class="container">
+                <input type="search" id="search-field" placeholder="Type your keyword ...">
+                <button class="search-pannel-icon"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <!-- !---------Info-pannel---------------------------->
+        <div class="info-pannel">
+            <div class="container">
+                <div class="inner-info-pannel">
+                    <div class="info-col-1">
+                        <div class="contact">
+                            <i class="fa fa-phone"></i>
+                            <span>(+91) 83069-69532</span>
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <span>official.soni532@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="info-col-2">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- !---------Navigation-pannel---------------------------->
+        <div class="nav-pannel">
+            <div class="container">
+                <div class="nav-inner">
+                    <div class="roberto-logo"><img src="/Resources/Footer/logo/Roberto_dark.webp" alt=""></div>
+                    <button class="hamburger" id="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                    <!-- ------------content -->
+                    <div class="nav-content-box" id="navContent">
+                        <ul class="nav-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li class="page-list"><a href="#">Pages <i class="fa fa-angle-down"
+                                        id="page-list-buton"></i></a>
+                                <ul class="page-list-inner">
+                                    <li><a href="#">-Home</a></li>
+                                    <li><a href="#">-Rooms</a></li>
+                                    <li><a href="#">-Single Room</a></li>
+                                    <li><a href="#">-About Us</a></li>
+                                    <li><a href="#">-Blog</a></li>
+                                    <li><a href="#">-Single Blog</a></li>
+                                    <li><a href="#">-Contact</a></li>
+                                    <li class="Dropdown"><a href="#">-Dropdown <i class="fa fa-angle-right"
+                                                id="dropdownButton"></i></a>
+                                        <ul class="dropdown-list" >
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="nav-search-icon" data-toggle-search><i class="fa fa-search"></i></div>
+                        <div class="nav-book-btn"><a href="#">Book Now <i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--! -----------------Mobile slide navigation -->
+        <nav class="mobile-nav-pannel" id="mobileNavPannel">
+            <span id="close-btn"><button class="cross-icon">
+                    <div class="cross-bar"></div>
+                </button></span>
+            <div class="mNav-container">
+                <ul id="mNav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="mNav-page-list"><a href="#">Pages
+                            <i class="fa fa-angle-down" id="pages-icon"></i></a>
+                        <ul class="mNav-page-content" id="page-list-inner">
+                            <li><a href="#">-Home</a></li>
+                            <li><a href="#">-Rooms</a></li>
+                            <li><a href="#">-Single Room</a></li>
+                            <li><a href="#">-About Us</a></li>
+                            <li><a href="#">-Blog</a></li>
+                            <li><a href="#">-Single Blog</a></li>
+                            <li><a href="#">-Contact</a></li>
+                            <li class="mNav-pages-dropdown"><a href="#">-Dropdown <i class="fa fa-angle-down"
+                                        id="dropDownButton"></i></a>
+                                <ul class="mNav-dropdown-content" id="dropdownList">
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="mNav-search-icon" data-mobile-toggle-search><i class="fa fa-search"></i></div>
+                <div class="mNav-book-btn"><a href="#">Book Now <i class="fa fa-long-arrow-right"
+                            aria-hidden="true"></i></a></div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
