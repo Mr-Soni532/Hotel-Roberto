@@ -18,11 +18,6 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.content {
-  display: block;
-  height: 100vh;
-  width: 100%;
-}
 
 .cont-inner {
   margin-top: 100px;
