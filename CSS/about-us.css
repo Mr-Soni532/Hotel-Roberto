@@ -5,267 +5,369 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-/*! styling all div containers  */
-.flex-continer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
+
+.container {
+  position: relative;
   width: 100%;
   height: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mt-100 {
+  margin-top: 100px;
 }
 
-/** 2nd Div */
-.second {
-  margin-top: 100px;
-  height: 463.4px;
-  background: #fff;
-}
-.second .testimonials {
-  width: 100%;
-  height: 100%;
+/*! --------------| Testimonial |--------- */
+
+.flex-center {
   display: flex;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-.testimonials .image {
-  padding: 0 15px;
+.testimonial_col-1 {
+  position: relative;
+  flex: 0 0 50%;
+  max-width: 50%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.testimonial_thumbnail {
+  position: relative;
+  padding-right: 3rem;
   margin-bottom: 100px;
-  flex-basis: 30%;
 }
-.testimonials .image img {
-  padding-right: 48px;
+.testimonial_thumbnail > img {
+  max-width: 100%;
   border-radius: 6px;
-  width:492px;
-  height: 362px;
+  width: 100%;
 }
-.content {
-  flex-basis: 40%;
+
+.testimonial_col-2 {
+  position: relative;
+  max-width: 50%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.content h6 {
-  font-size: 16px;
+.testimonial_heading {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+.testimonial_heading > h6 {
+  text-transform: uppercase;
   color: #1cc3b2;
-  font-weight: 500;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  display: block;
   line-height: 1.3;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
-.content h2 {
-  font-size: 48px;
+.testimonial_heading > h2 {
+  font-size: 42px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  display: block;
+  line-height: 1.2;
   color: #2a303b;
   font-weight: 500;
 }
-.content .end-content {
-  height: 60%;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 60px;
-}
-.content .end-content p {
-  font-size: 16px;
-  margin-bottom: 16px;
-  color: #636a76;
-  line-height: 1.7;
-  font-weight: 400;
-}
-.content .end-content img {
-  height: 37px;
-  width: 175px;
-}
-/** 3rd Div  */
-.third {
-  height: 481px;
-  background-image: url("../Resources/About Us/images/3.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-position-y: -270.25px;
-}
-.third .overlay {
+.testimonial_content {
+  max-width: 100%;
   width: 100%;
-  height: 100%;
-  background-color: rgba(14, 39, 55, 0.7);
-  flex-direction: column;
-}
-.third .overlay h6 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-.third .overlay h2 {
-  font-size: 42px;
-  color: #ffffff;
-  font-weight: 500;
-  margin-bottom: 50px;
-}
-.third .overlay a {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: #1cc3b2;
-  transition-duration: 500ms;
-  
-}
-.third .overlay a:hover{
-  background: #1cc3b2;
-  color: #ffffff;
-}
-/** 4th Div  */
-.fourth {
-  padding-top: 100px;
-  height: 581px;
-  background: #fff;
-  flex-direction: column;
   margin-bottom: 100px;
 }
-.fourth h6 {
+.testimonial_content p {
+  line-height: 1.7;
+  color: #636a76;
   font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.testimonial_content img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/*! --------------| Hotel Parallax |--------- */
+
+.hotelParallax {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+  
+}
+.hotelParallax_flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 142px;
+}
+.hotelParallax_content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.hotelParallax_content > h6 {
+  color: #ffffff;
+  font-size: 1rem;
+  display: block;
+  line-height: 1.3;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #1cc3b2;
+  display: block;
+  margin-bottom: 10px;
 }
-.fourth h2 {
-  font-size: 42px;
-  color: #2a3038;
+.hotelParallax_content > h2 {
+  color: #fff;
+  font-size: 48px;
+  display: block;
+  line-height: 1.2;
   font-weight: 500;
-  margin-bottom: 50px;
 }
-.images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 350px;
-}
-.images .img-1,
-.img-2,
-.img-3 {
-  height: 350px;
-  width: 350px;
-  margin: 0 15px;
-  z-index: 1;
+.hotelParallax_video-btn{
   position: relative;
+  margin-top: 100px;
 }
-.images img {
-  height: 100%;
-  width: 100%;
+.hotelParallax_video-btn > a{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  color: #1cc3b2;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
   position: absolute;
-  z-index: -1;
-}
-.images .img-bottom {
-  position: absolute;
-  bottom: 0;
-}
-.images .img-bottom {
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+  z-index: 100;
+  transition-duration: 500ms;
+  outline: none;
+  font-weight: 500;
   display: flex;
-  width: 100%;
-  height: 80px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(42, 48, 59, 0.5);
-  transition-duration: 500ms;
 }
-.images .img-bottom h2 {
-  font-size: 22px;
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 0;
-}
-.c-img:hover .img-bottom {
-  background-color: rgba(42, 48, 59, 1);
-}
-/** 5th Div  */
-.fifth {
-  height: 177px;
+.parallax{
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -100;
+  /* clip: rect(0, 1903px, 300px, 0); */
+  clip: rect(0, 1519.2000732421875px, 481.20001220703125px, 0);
 }
-.outer {
-  width: 80%;
-  background-image: url("../Resources/About Us/images/5.webp");
-  background-position: 50% 100%;
+.parallax-img{
+  height: 100%;
+  z-index: -99;
+  background-image: url("/Resources/About Us/images/3.webp");
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 5;
-}
-.fifth .outer .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100%;
+  height: 618.5px;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: 420.25px;
+  transform: translate3d(0px, -70.25px, 0px);
+  transition-duration: 0ms;
+}
+.parallaxOverlay{
   height: 100%;
+  max-width: 100%;
+  width: 100%;
+  z-index: -97;
   background-color: rgba(14, 39, 55, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+
 }
-.fifth .inner {
-  height: 75%;
-  width: 95%;
-  display: flex;
-}
-.col-1 {
-  flex-basis: 60%;
-}
-.col-1 h2 {
-  color: #ffffff;
-  font-size: 36px;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-.col-1 h6 {
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 500;
-}
-.col-2{
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-.col-2 .btn {
+/*! --------------| Hotel Features |--------- */
+
+.hotel-features{
   position: relative;
-  z-index: 1;
-  min-width: 150px;
-  height: 46px;
-  line-height: 46px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  text-align: center;
-  text-transform: capitalize;
-  background-color: #1cc3b2;
-  color: #fff;
-  border: none;
-  border-radius: 2px;
-  transition-duration: 500ms;
-}
-.col-2 .btn:hover{
-  background: #fff;
-  color: #1cc3b2;
-}
-/** 6th  */
-.sixth {
-  height: 120px;
   width: 100%;
-  background:#fff;
-  display: flex;
-  justify-content: center;
 }
-.sixth .six-out{
-  width: 80%;
-  height: 100%;
+.hotel-features_heading{
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-.sixth .six-out img{
-  max-height: 50px;
-  height: auto;
+.hotel-features_heading > h6{
+  color: #1cc3b2;
+  font-size: 1rem;
+  display: block;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+.hotel-features_heading > h2{
+  color: #2a303b;
+  font-size: 48px;
+  display: block;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.feature-thumbnail{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+.fetaure-thumbnail__box{
+  position: relative;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.fetaure-thumbnail__box:hover .thumbnail__box-content{
+  background-color: rgba(42, 48, 59, 1);
+
+}
+.thumbnail__box-img{
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.thumbnail__box-img > img{
+  max-width: 100%;
+}
+.thumbnail__box-content{
+  transition-duration: 500ms;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(42, 48, 59, 0.5);
+  left: 0;
+  bottom: 5px;
+  height: 80px;
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail__box-content > h5{
+  line-height: 1.3;
+    font-weight: 500;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+
+/*!---------------------------| Media Queries Section |-----------------------------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .testimonial_heading > h2 {
+    font-size: 36px;
+  }
+  .hotelParallax_content > h2, .hotel-features_heading > h2{
+    font-size: 36px;
+  }
+  .hotelParallax_flex{
+    padding-bottom: 157px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .flex-center{
+    flex-wrap: wrap;
+  }
+  .testimonial_col-1, .testimonial_col-2{
+    flex: 0 0 100%;
+  max-width: 100%;
+  }
+  .testimonial_heading > h2 {
+    font-size: 30px;
+  }
+  .hotelParallax_content > h2, .hotel-features_heading > h2{
+    font-size: 30px;
+  }
+  .hotelParallax_flex{
+    padding-bottom: 165px;
+  }
+  .parallax-img{
+    margin-top: 650px;
+  }
+  .fetaure-thumbnail__box{
+    flex: 0 0 50%;
+  max-width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .testimonial_heading > h2 {
+    font-size: 24px;
+  }
+  .hotelParallax_content > h2, .hotel-features_heading > h2{
+    font-size: 24px;
+  }
+  .fetaure-thumbnail__box{
+    flex: 0 0 100%;
+  max-width: 100%;
+  }
+  .hotelParallax_video-btn > a{
+    width: 60px;
+    height: 60px;
+    font-size: 23px;
+  }
+  .hotelParallax_flex{
+    padding-bottom: 171px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .container{
+        min-width: 100%;
+    }
+ 
 }

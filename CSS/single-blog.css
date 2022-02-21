@@ -21,60 +21,7 @@ body {
 }
 
 /* !----------Blog Header */
-.blog-header {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  z-index: 1;
-  margin-bottom: 100px;
-  margin-top: 200px;
-}
-.header_bg {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-image: url("/Resources/News/header.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* pointer-events: none; */
-}
-.header_overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(14, 39, 55, 0.7);
-  z-index: -1;
-}
-.header_flex {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-.header_content {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.header_content > h2 {
-  color: #fff;
-  font-size: 48px;
-  color: #fff;
-  font-size: 48px;
-  display: block;
-  font-weight: 500;
-}
-.header_content__page-path {
-  /* display: block; */
-  color: #fff;
-}
-.header_content__page-path > a {
+.pageTitle_content__page-path > a {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
@@ -83,19 +30,25 @@ body {
   z-index: 1;
   transition-duration: 500ms;
 }
-.header_content__page-path > a:hover {
+.pageTitle_content__page-path > a:hover {
   color: #1cc3b2;
 }
-.header_content__page-path > a:first-child::after {
+.pageTitle_content__page-path > a:first-child::after {
   content: "/";
   margin-left: 15px;
   margin-right: 15px;
 }
-.header_content__page-path > a > .fa {
+.pageTitle_content__page-path > a > .fa {
   margin-right: 2px;
+}
+.bg-img {
+  background-image: url("/Resources/News/header.webp");
 }
 /*! ----------blog section */
 
+.m-t {
+  margin-top: 100px;
+}
 .blog-section {
   position: relative;
   width: 100%;
@@ -327,8 +280,8 @@ body {
 }
 
 .field input:focus,
-.field > textarea:focus{
-    border-color: #1cc3b2;
+.field > textarea:focus {
+  border-color: #1cc3b2;
 }
 
 .field > textarea {
@@ -579,9 +532,9 @@ body {
   .container {
     max-width: 960px;
   }
-  .header_content > h2{
-     text-align: center;
-      font-size: 36px;
+  .header_content > h2 {
+    text-align: center;
+    font-size: 36px;
   }
   .post-title {
     font-size: 16px;
@@ -631,10 +584,10 @@ body {
   .container {
     max-width: 540px;
   }
-  .header_content > h2{
+  .header_content > h2 {
     text-align: center;
-     font-size: 24px;
- }
+    font-size: 24px;
+  }
   .blog-section__col-2 {
     padding-left: 0;
   }

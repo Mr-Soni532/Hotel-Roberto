@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="/CSS/pageTitle.css">
     <link rel="stylesheet" href="/CSS/about-us.css">
     <link rel="stylesheet" href="/Resources/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="/JS/pageTitle.js" defer></script>
     <script src="/JS/About-Us.js" defer></script>
     <title>About us</title>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        
+    </header>
     <!--!  pageTitle -->
     <section>
         <div class="pageTitle">
             <div class="bg-overlay">
-            <div class="container">
-                <div class="pageTitle_flex">
-                    <div class="pageTitle_content">
-                        <h2>Blog Left Sidebar</h2>
-                        <div class="pageTitle_content__page-path">
-                            <a href="#">Home</a>
-                            <i class="fa fa-angle-right"></i>
-                            Blog Left Sidebar
+                <div class="container">
+                    <div class="pageTitle_flex">
+                        <div class="pageTitle_content">
+                            <h2>About Us</h2>
+                            <div class="pageTitle_content__page-path">
+                                <a href="#">Home</a>
+                                <i class="fa fa-angle-right"></i>
+                                About Us
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
             <!-- background img -->
@@ -37,53 +40,95 @@
             </div>
         </div>
     </section>
-    <div class="second flex-continer">
-        <div class="testimonials">
-            <div class="image"> <img src="../Resources/About Us/images/2.webp" alt=""></div>
-            <div class="content">
-                <h6>TESTIMONIALS</h6>
-                <h2>20 years Of Experience</h2>
-                <div class="end-content">
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est
-                        laborum. Sed ut perspiciatis unde omnis iste.</p>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est
-                        laborum. Sed ut perspiciatis unde omnis iste. Lorem Ipsum available.</p>
-                    <img src="../Resources/About Us/images/michael_signature.webp" alt="">
+
+    <main>
+        <!-- Testimonial -->
+        <div class="container mt-100">
+            <div class="flex-center">
+                <div class="testimonial_col-1">
+                    <div class="testimonial_thumbnail">
+                        <img src="/Resources/About Us/images/2.webp" alt="">
+                    </div>
+                </div>
+                <div class="testimonial_col-2">
+                    <div class="testimonial_heading">
+                        <h6>TESTIMONIALS</h6>
+                        <h2>20 years Of Experience</h2>
+                    </div>
+                    <div class="testimonial_content">
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id
+                            est
+                            laborum. Sed ut perspiciatis unde omnis iste.</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id
+                            est
+                            laborum. Sed ut perspiciatis unde omnis iste. Lorem Ipsum available.</p>
+                        <img src="../Resources/About Us/images/michael_signature.webp" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="third" id="third">
-        <div class="overlay flex-continer">
-            <h6>ULTIMATE SOLUTIONS</h6>
-            <h2>Our Hotel & Room</h2>
-            <a href="#"><i class="fa fa-play"></i></a>
-        </div>
-    </div>
-    <div class="fourth flex-continer">
-        <h6>ULTIMATE SOULTIONS</h6>
-        <h2>Out Hotel & Room</h2>
-        <div class="images">
-            <div class="img-1 c-img">
-                <img src="../Resources/About Us/images/4-a.webp" alt="">
-                <div class="img-bottom">
-                    <h2>Restaurant & bar</h2>
+        <!-- Hotel parallax -->
+        <section>
+            <div class="hotelParallax">
+                <div class="parallaxOverlay">
+                    <div class="container">
+                        <div class="hotelParallax_flex">
+                            <div class="hotelParallax_content">
+                                <h6>ULTIMATE SOULTIONS</h6>
+                                <h2>Our Hotel & Room</h2>
+                                <div class="hotelParallax_video-btn">            
+                                  <a href="https://youtu.be/GmG4X9PGOXs?list=RDMM" target="blank">
+                                      <i class="fa fa-play"></i>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- background img -->
+                <div class="parallax">
+                    <div class="parallax-img" id="parallax2"></div>
                 </div>
             </div>
-            <div class="img-2 c-img">
-                <img src="../Resources/About Us/images/4-b.webp" alt="">
-                <div class="img-bottom">
-                    <h2>spa & Fitness</h2>
+        </section>
+      
+        <!-- Hotel Features -->
+            <div class="container">
+                <div class="hotel-features">
+                    <div class="hotel-features_heading">
+                        <h6>ULTIMATE SOULTIONS</h6>
+                        <h2>Our Hotel & Room</h2>
+                    </div>
+                </div>
+                <div class="feature-thumbnail">
+                    <div class="fetaure-thumbnail__box">
+                        <div class="thumbnail__box-img">
+                            <img src="/Resources/About Us/images/4-a.webp" alt="">
+                            <div class="thumbnail__box-content">
+                                <h5>Restaurant & Bar</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fetaure-thumbnail__box">
+                        <div class="thumbnail__box-img">
+                            <img src="/Resources/About Us/images/4-b.webp" alt="">
+                            <div class="thumbnail__box-content">
+                                <h5>Restaurant & Bar</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fetaure-thumbnail__box">
+                        <div class="thumbnail__box-img">
+                            <img src="/Resources/About Us/images/4-c.webp" alt="">
+                            <div class="thumbnail__box-content">
+                                <h5>Restaurant & Bar</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="img-3 c-img">
-                <img src="../Resources/About Us/images/4-c.webp" alt="">
-                <div class="img-bottom">
-                    <h2>Pool & Party</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+            
+    </main>
     <footer></footer>
 </body>
 
