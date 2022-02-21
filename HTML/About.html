@@ -5,19 +5,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/pageTitle.css">
     <link rel="stylesheet" href="/CSS/about-us.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
     <link rel="stylesheet" href="/Resources/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="/JS/Header.js" defer></script>
     <script src="/JS/pageTitle.js" defer></script>
     <script src="/JS/About-Us.js" defer></script>
+    <script src="/JS/Footer.js" defer></script>
     <title>About us</title>
 </head>
 
 <body>
+    <!-- !-----------------| Header |-------------  -->
     <header>
-        
+        <!-- !---------search-pannel---------------------------->
+        <div class="search-pannel" id="searchPannel">
+            <div class="container">
+                <input type="search" id="search-field" placeholder="Type your keyword ...">
+                <button class="search-pannel-icon"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <!-- !---------Info-pannel---------------------------->
+        <div class="info-pannel">
+            <div class="container">
+                <div class="inner-info-pannel">
+                    <div class="info-col-1">
+                        <div class="contact">
+                            <i class="fa fa-phone"></i>
+                            <span>(+91) 83069-69532</span>
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <span>official.soni532@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="info-col-2">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- !---------Navigation-pannel---------------------------->
+        <div class="nav-pannel">
+            <div class="container">
+                <div class="nav-inner">
+                    <div class="roberto-logo"><img src="/Resources/Footer/logo/Roberto_dark.webp" alt=""></div>
+                    <button class="hamburger" id="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                    <!-- ------------content -->
+                    <div class="nav-content-box" id="navContent">
+                        <ul class="nav-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li class="page-list"><a href="#">Pages <i class="fa fa-angle-down"
+                                        id="page-list-buton"></i></a>
+                                <ul class="page-list-inner">
+                                    <li><a href="#">-Home</a></li>
+                                    <li><a href="#">-Rooms</a></li>
+                                    <li><a href="#">-Single Room</a></li>
+                                    <li><a href="#">-About Us</a></li>
+                                    <li><a href="#">-Blog</a></li>
+                                    <li><a href="#">-Single Blog</a></li>
+                                    <li><a href="#">-Contact</a></li>
+                                    <li class="Dropdown"><a href="#">-Dropdown <i class="fa fa-angle-right"
+                                                id="dropdownButton"></i></a>
+                                        <ul class="dropdown-list">
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                            <li><a href="#">-Dropdown Item</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="nav-search-icon" data-toggle-search><i class="fa fa-search"></i></div>
+                        <div class="nav-book-btn"><a href="#">Book Now <i class="fa fa-long-arrow-right"
+                                    aria-hidden="true"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--! -----------------Mobile slide navigation -->
+        <nav class="mobile-nav-pannel" id="mobileNavPannel">
+            <span id="close-btn"><button class="cross-icon">
+                    <div class="cross-bar"></div>
+                </button></span>
+            <div class="mNav-container">
+                <ul id="mNav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="mNav-page-list"><a href="#">Pages
+                            <i class="fa fa-angle-down" id="pages-icon"></i></a>
+                        <ul class="mNav-page-content" id="page-list-inner">
+                            <li><a href="#">-Home</a></li>
+                            <li><a href="#">-Rooms</a></li>
+                            <li><a href="#">-Single Room</a></li>
+                            <li><a href="#">-About Us</a></li>
+                            <li><a href="#">-Blog</a></li>
+                            <li><a href="#">-Single Blog</a></li>
+                            <li><a href="#">-Contact</a></li>
+                            <li class="mNav-pages-dropdown"><a href="#">-Dropdown <i class="fa fa-angle-down"
+                                        id="dropDownButton"></i></a>
+                                <ul class="mNav-dropdown-content" id="dropdownList">
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                    <li><a href="#">-Dropdown Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="mNav-search-icon" data-mobile-toggle-search><i class="fa fa-search"></i></div>
+                <div class="mNav-book-btn"><a href="#">Book Now <i class="fa fa-long-arrow-right"
+                            aria-hidden="true"></i></a></div>
+            </div>
+        </nav>
     </header>
-    <!--!  pageTitle -->
+
+    <!-- !-----------------| Page Title |-------------  -->
     <section>
         <div class="pageTitle">
             <div class="bg-overlay">
@@ -41,6 +161,7 @@
         </div>
     </section>
 
+    <!-- !-----------------| Main |-------------  -->
     <main>
         <!-- Testimonial -->
         <div class="container mt-100">
@@ -76,10 +197,10 @@
                             <div class="hotelParallax_content">
                                 <h6>ULTIMATE SOULTIONS</h6>
                                 <h2>Our Hotel & Room</h2>
-                                <div class="hotelParallax_video-btn">            
-                                  <a href="https://youtu.be/GmG4X9PGOXs?list=RDMM" target="blank">
-                                      <i class="fa fa-play"></i>
-                                  </a>
+                                <div class="hotelParallax_video-btn">
+                                    <a href="https://youtu.be/GmG4X9PGOXs?list=RDMM" target="blank">
+                                        <i class="fa fa-play"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -91,45 +212,148 @@
                 </div>
             </div>
         </section>
-      
+
         <!-- Hotel Features -->
-            <div class="container">
-                <div class="hotel-features">
-                    <div class="hotel-features_heading">
-                        <h6>ULTIMATE SOULTIONS</h6>
-                        <h2>Our Hotel & Room</h2>
+        <div class="container">
+            <div class="hotel-features">
+                <div class="hotel-features_heading">
+                    <h6>ULTIMATE SOULTIONS</h6>
+                    <h2>Our Hotel & Room</h2>
+                </div>
+            </div>
+            <div class="feature-thumbnail">
+                <div class="fetaure-thumbnail__box">
+                    <div class="thumbnail__box-img">
+                        <img src="/Resources/About Us/images/4-a.webp" alt="">
+                        <div class="thumbnail__box-content">
+                            <h5>Restaurant & Bar</h5>
+                        </div>
                     </div>
                 </div>
-                <div class="feature-thumbnail">
-                    <div class="fetaure-thumbnail__box">
-                        <div class="thumbnail__box-img">
-                            <img src="/Resources/About Us/images/4-a.webp" alt="">
-                            <div class="thumbnail__box-content">
-                                <h5>Restaurant & Bar</h5>
-                            </div>
+                <div class="fetaure-thumbnail__box">
+                    <div class="thumbnail__box-img">
+                        <img src="/Resources/About Us/images/4-b.webp" alt="">
+                        <div class="thumbnail__box-content">
+                            <h5>Restaurant & Bar</h5>
                         </div>
                     </div>
-                    <div class="fetaure-thumbnail__box">
-                        <div class="thumbnail__box-img">
-                            <img src="/Resources/About Us/images/4-b.webp" alt="">
-                            <div class="thumbnail__box-content">
-                                <h5>Restaurant & Bar</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fetaure-thumbnail__box">
-                        <div class="thumbnail__box-img">
-                            <img src="/Resources/About Us/images/4-c.webp" alt="">
-                            <div class="thumbnail__box-content">
-                                <h5>Restaurant & Bar</h5>
-                            </div>
+                </div>
+                <div class="fetaure-thumbnail__box">
+                    <div class="thumbnail__box-img">
+                        <img src="/Resources/About Us/images/4-c.webp" alt="">
+                        <div class="thumbnail__box-content">
+                            <h5>Restaurant & Bar</h5>
                         </div>
                     </div>
                 </div>
             </div>
-            
+        </div>
+
     </main>
-    <footer></footer>
+
+    <!-- !-----------------| Footer |-------------  -->
+    <footer class="contact-Us">
+        <div class="container">
+            <div class="cont-inner " id="parallax-scroll">
+                <div class="cont-overlay">
+                    <div class="flex-cont">
+                        <div class="col-1">
+                            <div class="text">
+                                <h2>Contact us now!</h2>
+                                <h6>Contact (+91) 830-696-9532 to book directly or for advice</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <a href="#" class="contact-btn">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Partner logo -->
+        <div class="container">
+            <div class="cont_inner">
+                <div class="logo-pannel">
+                    <img src="/Resources/Footer/logo/1.webp" alt="">
+                    <img src="/Resources/Footer/logo/3.webp" alt="">
+                    <img src="/Resources/Footer/logo/4.webp" alt="">
+                    <img src="/Resources/Footer/logo/5.webp" alt="">
+                    <img src="/Resources/Footer/logo/2.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- footer-section -->
+        <div class="footer-pannel">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="contact-details">
+                        <a class="roberto__logo" href="#">
+                            <img src="/Resources/Footer/logo/Roberto.webp" alt="">
+                        </a>
+                        <h4>+91 830-696-9532</h4>
+                        <span>Official.soni532@gmail.com</span>
+                        <span>Mera chowk S.S.B Road, SGNR <br>
+                            Rajasthan, India</span>
+                    </div>
+                    <div class="blog-details">
+                        <div class="blog_title">
+                            <h5>Out Blog</h5>
+                        </div>
+                        <div class="latest-blog">
+                            <a href="#">Freelance Design Tricks How</a>
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 02, 2021</span>
+                        </div>
+                        <div class="latest-blog">
+                            <a href="#">Free Advertising for your Online</a>
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 29, 2021</span>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <h5>Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> About Us</a></li>
+                            <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our Room</a></li>
+                            <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Career</a></li>
+                            <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <h5>Subscribe Newsletter</h5>
+                        <span>Subscribe our newsletter for getting notification about new updates.</span>
+                        <form action="index.html" class="form-email">
+                            <input type="email" class="form-control" placeholder="Enter your email...">
+                            <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="copyright-details">
+                    <div class="copyright_inner">
+                        <div class="copyright-content">
+                            <div class="content_inner">
+                                <p>
+                                    Copyright ©
+                                    <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                                    This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                        href="www.linkedin.com/in/bhupender-soni
+                                    " target="_blank" class="Designer">Bhupender Soni</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="copyright-logo">
+
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
