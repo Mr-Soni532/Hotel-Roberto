@@ -305,6 +305,13 @@ body {
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  transition-duration: 500ms;
+}
+.postComment-btn > button:hover{
+  font-weight: 500;
+  box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+  background-color: #ffffff;
+  color: #1cc3b2;
 }
 /*! ---------blog column  2 */
 .news-section__col-2 {
@@ -370,8 +377,15 @@ body {
   color: #fff;
   border: none;
   border-radius: 2px;
+  transition-duration: 500ms;
+  cursor: pointer;
 }
-
+.newsletter-form button:hover{
+  font-weight: 500;
+  box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+  background-color: #ffffff;
+  color: #1cc3b2;
+}
 /*! -----------Recent News */
 
 .recent-news {
@@ -526,6 +540,9 @@ body {
   width: 100%;
 }
 
+.contactUs-Parallax {
+  margin-top: 1500px;
+}
 /* !------------------------| Media Query Section |--------------------------- */
 
 @media screen and (max-width: 1200px) {
@@ -550,6 +567,7 @@ body {
   .recent-post-title {
     font-size: 13px;
   }
+ 
 }
 
 @media screen and (max-width: 992px) {
@@ -578,6 +596,9 @@ body {
   }
   .col-2__inner {
     padding-left: 0;
+  }
+  .contactUs-Parallax {
+    margin-top: 2300px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -627,6 +648,9 @@ body {
   .comment-meta p {
     font-size: 14px;
   }
+  .contactUs-Parallax {
+    margin-top: 2400px;
+  }
 }
 @media screen and (max-width: 576px) {
   .header_content > h2 {
@@ -639,5 +663,11 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
     width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .contactUs-background {
+    clip: rect(0, 544px,300px, 0);
   }
 }

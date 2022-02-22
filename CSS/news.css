@@ -254,8 +254,16 @@ body {
   color: #fff;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  transition-duration: 500ms;
 }
 
+.newsletter-form button:hover{
+  font-weight: 500;
+  box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+  background-color: #ffffff;
+  color: #1cc3b2;
+}
 /* -----------Recent News */
 
 .recent-news {
@@ -410,7 +418,10 @@ body {
   width: 100%;
 }
 
-
+/* --- footer  */
+.contactUs-Parallax{
+  margin-top: 1100px ;
+}
 
 /*!---------------------------| Media Queries Section |-----------------------------------------------*/
 
@@ -440,6 +451,9 @@ body {
   .recent-post-title {
     font-size: 13px;
   }
+  .contactUs-Parallax {
+    margin-top: 850.25px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -468,6 +482,10 @@ body {
   }
   .col-2__inner {
     padding-left: 0;
+  }
+  .contactUs-Parallax {
+    margin-top: 1710.25px;
+  
   }
 }
 @media screen and (max-width: 768px) {
@@ -523,6 +541,9 @@ body {
   .recent-post-title {
     font-size: 16px;
   }
+  .contactUs-Parallax {
+    margin-top: 3010.25px;
+  }
 }
 @media screen and (max-width: 576px) {
   .header_content > h2 {
@@ -532,5 +553,8 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
     width: 100%;
+  }
+  .contactUs-Parallax {
+    margin-top: 3110.25px;
   }
 }

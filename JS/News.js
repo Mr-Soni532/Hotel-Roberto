@@ -1,10 +1,4 @@
-let headerParallax = document.getElementById("header_bg");
-console.log(headerParallax);
 
-window.addEventListener("scroll", () => {
-  let val = window.pageYOffset * 0.5;
-  headerParallax.style.backgroundPositionY = "-" + val + "px";
-});
 
 
 //!---------------------Pagination---------------

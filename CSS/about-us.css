@@ -294,7 +294,9 @@
   color: #ffffff;
 }
 
-
+.contactUs-Parallax {
+  margin-top: 1000.25px;
+}
 
 /*!---------------------------| Media Queries Section |-----------------------------------------------*/
 
@@ -341,6 +343,9 @@
     flex: 0 0 50%;
   max-width: 50%;
   }
+  .contactUs-Parallax {
+    margin-top: 1350.25px;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -364,10 +369,15 @@
   .hotelParallax_flex{
     padding-bottom: 171px;
   }
+  .contactUs-Parallax {
+    margin-top: 1750.25px;
+  }
 }
 @media screen and (max-width: 576px) {
     .container{
         min-width: 100%;
     }
- 
+    .contactUs-Parallax {
+      margin-top: 1850.25px;
+    }
 }

@@ -7,7 +7,6 @@
 }
 body {
   cursor: auto;
-  background: pink;
   scroll-behavior: smooth;
 }
 .container {
@@ -168,6 +167,7 @@ body {
 /*? -------------------------roberto logo */
 .roberto-logo {
   display: flex;
+  cursor: pointer;
 }
 /*? -----------------------------nav-content-box */
 .nav-content-box {
