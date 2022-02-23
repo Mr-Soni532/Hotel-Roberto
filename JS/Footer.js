@@ -1,7 +1,4 @@
 let ContactUs_Parallax = document.querySelector("#contactUs-Parallax");
-console.log(ContactUs_Parallax)
-
-console.log( ContactUs_Parallax.style.transform)
 window.addEventListener("scroll", () => {
   let val = window.pageYOffset;
   val = val * 0.5;
