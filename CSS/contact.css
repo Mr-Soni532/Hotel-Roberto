@@ -30,7 +30,7 @@ body {
   clip: rect(0, 1903px, 400px, 0);
 }
 .bg-img {
-  background-image: url("/Resources/Home/carosel__1/3.jpg");
+  background-image: url("../Resources/Home/carosel__1/3.jpg");
 }
 
 /*!--------------- | Map section |----------*/

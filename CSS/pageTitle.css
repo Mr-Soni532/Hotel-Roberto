@@ -80,7 +80,7 @@
 .bg-img {
   height: 100%;
   z-index: -99;
-  background-image: url("/Resources/About Us/images/div1.webp");
+  background-image: url("../Resources/About Us/images/div1.webp");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;

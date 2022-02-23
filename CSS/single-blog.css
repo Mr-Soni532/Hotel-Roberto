@@ -42,7 +42,7 @@ body {
   margin-right: 2px;
 }
 .bg-img {
-  background-image: url("/Resources/News/header.webp");
+  background-image: url("../Resources/News/header.webp");
 }
 /*! ----------blog section */
 

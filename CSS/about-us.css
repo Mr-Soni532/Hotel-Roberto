@@ -186,7 +186,7 @@
 .parallax-img{
   height: 100%;
   z-index: -99;
-  background-image: url("/Resources/About Us/images/3.webp");
+  background-image: url("../Resources/About Us/images/3.webp");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;

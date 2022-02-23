@@ -62,25 +62,25 @@ body {
   z-index: 2;
 }
 .carousel__button--left {
-  background-image: url(/Resources/Home/carosel__1/3.jpg);
+  background-image: url(../Resources/Home/carosel__1/3.jpg);
   left: 20px;
 }
 .carousel__button--right {
-  background-image: url(/Resources/Home/carosel__1/2.jpg);
+  background-image: url(../Resources/Home/carosel__1/2.jpg);
   right: 20px;
 }
 .carousel__slide_1 {
-  background-image: url(/Resources/Home/carosel__1/1.jpg);
+  background-image: url(../Resources/Home/carosel__1/1.jpg);
   background-size: cover;
   background-position: center;
 }
 .carousel__slide_2 {
-  background-image: url(/Resources/Home/carosel__1/2.jpg);
+  background-image: url(../Resources/Home/carosel__1/2.jpg);
   background-size: cover;
   background-position: center;
 }
 .carousel__slide_3 {
-  background-image: url(/Resources/Home/carosel__1/3.jpg);
+  background-image: url(../Resources/Home/carosel__1/3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -612,7 +612,7 @@ body {
   height: 100%;
   max-width: 50%;
   width: 50%;
-  background-image: url(/Resources/Home/carosel__1/1.jpg);
+  background-image: url(../Resources/Home/carosel__1/1.jpg);
   background-size: cover;
   background-position: center center;
   background-size: cover;
@@ -865,7 +865,7 @@ body {
   height: 100%;
   min-width: 25%;
   /* outline: 2px solid rgb(248, 4, 4); */
-  background-image: url(/Resources/Home/project/1.webp);
+  background-image: url(../Resources/Home/project/1.webp);
   background-size: cover;
   background-position: center;
   overflow: hidden;
