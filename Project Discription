@@ -1,0 +1,16 @@
+# Hotel-Roberto
+This repository is dedicated to a Luxury Hotel Website, which creates a virtual presence of Hotel Roberto.
+Users can have a quick tour of the Hotel Roberto Facilities and services by visiting the particular secitions of this website. 
+Website contains multiple seciton such as :- 
+
+1. HOME - In this seciton user first get welcome message by Hotel roberto followed by a room availability section which let user check if there are available rooms or not. In additon there is a testimonial section which reflects the previous visitors experience. Moving Further, there is a amazing carousel seciton which present hotel facilities like swimming pool both indoor and outdoor and so more.
+2. ROOMS - In this section user can select their desired room with additonal facilites and details. In addition, this section also contains a book a room section by which user can book their with all the details like number of gurest and check in and check out date, also the most important price range section which let user user select the a budget friendly room. 
+3. About Us - This section gives a quick short intro to about the hotel along with a tour video. 
+4. Pages - In the pages section users can read blogs and directly navigate to different section of the website. 
+5. News- News section contains the lates and previously posted news by hotel group regarding updates in hotel and many more. 
+6. Contact - This section allow user to contact with hotel group with all given contact information. In additon, a google navigation is also added in page so that user can walk-in hotel for personal experience or further query. 
+
+Website is completely responsive and user friendly, additionally there are so many animaitons are added on every section which generate interests in users to spend more time on webiste. 
+
+------------- | NOTE | ----------------------
+ This is a clone website for practice intention only. The websie is orignally designed and owned by colorlib.com. 
