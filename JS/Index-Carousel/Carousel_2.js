@@ -10,7 +10,7 @@ let roomSlideID;
 let clone_1 = roomSlides[0].cloneNode(true);
 console.log(getComputedStyle(clone_1.children[0]).backgroundImage)
 // clone_1.children[0].style.backgroundImage = "url(../../Resources/Home/carosel__1/2.jpg)"
-clone_1.children[0].style.backgroundImage = `url(demo.jpg)`;
+clone_1.children[0].style.backgroundImage = `url(../Resources/Home/carosel__1/2.jpg)`;
 let roomTitle = clone_1.children[1].children[0].children[0];
 roomTitle.textContent = "Best King Room";
 let roomPrice = clone_1.children[1].children[0].children[1];
