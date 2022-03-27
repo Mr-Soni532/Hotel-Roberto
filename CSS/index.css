@@ -1089,7 +1089,6 @@ body {
   }
 
   .Availability{
-
     padding-left: 8px;
   }
 }
@@ -1107,7 +1106,9 @@ body {
   .availability-form {
     padding: 0;
   }
-
+  .Availability{
+    padding-left: 8px;
+  }
   .count_icon {
     top: 27%;
     right: 7px;
